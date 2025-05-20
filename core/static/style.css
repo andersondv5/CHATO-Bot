@@ -1,0 +1,30 @@
+::selection {
+        background: #444;
+        color: white;
+      }
+      #resposta-container {
+        font-family: 'JetBrains Mono', monospace;
+        /* borda removida */
+      }
+      
+      /* Scroll minimalista WebKit */
+      #resposta-container::-webkit-scrollbar {
+        width: 6px;
+      }
+      #resposta-container::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      #resposta-container::-webkit-scrollbar-thumb {
+        background-color: rgba(100, 100, 100, 0.4);
+        border-radius: 3px;
+        border: 1px solid transparent;
+      }
+      #resposta-container::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(130, 130, 130, 0.7);
+      }
+      
+      /* Scroll minimalista Firefox */
+      #resposta-container {
+        scrollbar-width: thin;
+        scrollbar-color: rgba(100, 100, 100, 0.4) transparent;
+      }
