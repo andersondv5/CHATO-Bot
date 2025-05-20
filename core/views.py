@@ -7,7 +7,6 @@ load_dotenv()  # Carrega as variáveis do .env
 
 CHAVE = os.getenv('API_KEY')  # Pega a chave da variável de ambiente
 
-print("Chave API carregada:", CHAVE)  # Só para debug - remova em produção
 
 def home(request):
     if request.method == 'POST':
