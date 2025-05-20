@@ -5,7 +5,6 @@
 
 #resposta-container {
     font-family: 'JetBrains Mono', monospace;
-    /* borda removida */
 }
 
 #resposta-container::-webkit-scrollbar {
